@@ -6,12 +6,12 @@
 #    By: gclausse <gclausse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/19 13:24:10 by gclausse          #+#    #+#              #
-#    Updated: 2022/09/19 14:31:17 by gclausse         ###   ########.fr        #
+#    Updated: 2022/09/20 09:41:33 by gclausse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = array
-SRCS = main.cpp array.tpp
+SRCS = main.cpp
 
 CXX = c++
 CXXFLAGS = -MMD -Wall -Wextra -Werror
