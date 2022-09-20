@@ -6,7 +6,7 @@
 /*   By: gclausse <gclausse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 14:35:43 by gclausse          #+#    #+#             */
-/*   Updated: 2022/09/20 10:11:21 by gclausse         ###   ########.fr       */
+/*   Updated: 2022/09/20 10:12:56 by gclausse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,19 @@
 int main(void)
 {
 	
-	std::cout << "Let's create 3 arrays of ints : " << std::endl;
-	Array<int> x;
-	Array<int> y(3);
-	Array<int> z(3);
-	y[0] = 0;
-	y[1] = 1;
-	y[2] = 2;
-	z[0] = 3;
-	z[1] = 4;
-	z[2] = 5;
-
 	try
 	{
+		std::cout << "Let's create 3 arrays of ints : " << std::endl;
+		Array<int> x;
+		Array<int> y(3);
+		Array<int> z(3);
+		y[0] = 0;
+		y[1] = 1;
+		y[2] = 2;
+		z[0] = 3;
+		z[1] = 4;
+		z[2] = 5;
+		
 		std::cout << "x = " << x << std::endl;
 		std::cout << "y = " << y << std::endl;
 		std::cout << "z = " << z << std::endl<< std::endl;
