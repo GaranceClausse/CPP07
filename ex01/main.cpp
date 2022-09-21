@@ -6,11 +6,29 @@
 /*   By: gclausse <gclausse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 14:09:09 by gclausse          #+#    #+#             */
-/*   Updated: 2022/09/19 14:25:47 by gclausse         ###   ########.fr       */
+/*   Updated: 2022/09/21 11:39:36 by gclausse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "iter.hpp"
+
+//class Awesome {
+//	public:
+//	Awesome(void): _n(42){return;}
+//	int get(void) const {return this->_n;}
+//	private: int _n;
+//};
+//std::ostream &operator<<(std::ostream &o, const Awesome &a){o << a.get(); return o;}
+//template <typename T>
+//void print(T const &x) {std::cout << x << std::endl; return;}
+//int main(){
+//	int tab[] = {0, 1,2,3,4};
+//	Awesome tab2[5];
+//	iter(tab,5,print);
+//	iter(tab2, 5, print);
+//	return 0;
+//}
+
 
 template <typename T>
 void	addnameT(T const& t)
